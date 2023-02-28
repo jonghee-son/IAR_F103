@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\jongh\Documents\repo\iar_f103\settings\iar_f103.Debug.general.xcl" --backend -f "C:\Users\jongh\Documents\repo\iar_f103\settings\iar_f103.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\jongh\Documents\repo\IAR_F103\settings\iar_f103.Debug.general.xcl" --backend -f "C:\Users\jongh\Documents\repo\IAR_F103\settings\iar_f103.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\jongh\Documents\repo\iar_f103\settings\iar_f103.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\jongh\Documents\repo\iar_f103\settings\iar_f103.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\jongh\Documents\repo\IAR_F103\settings\iar_f103.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\jongh\Documents\repo\IAR_F103\settings\iar_f103.Debug.driver.xcl" 
 }

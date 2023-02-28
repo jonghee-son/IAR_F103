@@ -1,23 +1,23 @@
-"C:\Users\jongh\Documents\repo\iar_f103\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c"
+"C:\Users\jongh\Documents\repo\IAR_F103\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\jongh\Documents\repo\iar_f103\Debug\BrowseInfo\STM32F10x_StdPeriph_Driver\stm32f10x_flash.pbi.dep
+C:\Users\jongh\Documents\repo\IAR_F103\Debug\BrowseInfo\STM32F10x_StdPeriph_Driver\stm32f10x_flash.pbi.dep
 -o
-C:\Users\jongh\Documents\repo\iar_f103\Debug\BrowseInfo\STM32F10x_StdPeriph_Driver\stm32f10x_flash.pbi
+C:\Users\jongh\Documents\repo\IAR_F103\Debug\BrowseInfo\STM32F10x_StdPeriph_Driver\stm32f10x_flash.pbi
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\STM32F10x_StdPeriph_Driver\src
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\STM32F10x_StdPeriph_Driver\src
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\CMSIS\CM3\CoreSupport
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\CMSIS\CM3\CoreSupport
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\STM32F10x_StdPeriph_Driver\inc
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\CMSIS\Core\Include\
 -I
@@ -27,13 +27,13 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc\c
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\CMSIS\CM3\CoreSupport
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\CMSIS\CM3\CoreSupport
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
 -I
-C:\Users\jongh\Documents\repo\iar_f103\Libraries\STM32F10x_StdPeriph_Driver\inc
+C:\Users\jongh\Documents\repo\IAR_F103\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\CMSIS\Core\Include
 -D__CHAR_BITS__=8
@@ -372,6 +372,8 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\CMSIS\Core\Include
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
+-DSTM32F10X_MD=1
+-DUSE_STDPERIPH_DRIVER=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc\c\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V9.32.1.338/W64 for ARM"
